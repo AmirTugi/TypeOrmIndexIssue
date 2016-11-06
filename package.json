@@ -1,0 +1,28 @@
+{
+  "name": "arihav-api",
+  "version": "1.0.0",
+  "description": "API for Arihav applications",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Amir Tugendhaft",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "reflect-metadata": "^0.1.8",
+    "typeorm": "0.0.2-alpha.69"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/express": "^4.0.33",
+    "@types/node": "^6.0.46",
+    "typescript": "^2.0.6"
+  }
+}
